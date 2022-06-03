@@ -1,6 +1,6 @@
 # Maximum Subsequence Sum
 
-*Algorithms: A Top-Down Approach* (R. Howell) describes five algorithms (four in Chapter 1 and one in Chapter 3) for solving the maximum subsequence sum problem, and reports the results of timing tests of implementations of each of them. This repository contains the source code used to conduct these tests, as well as an executable JAR file (`maxsum.jar`).
+*Algorithms: A Top-Down Approach* (R. Howell) describes five algorithms (four in Chapter 1 and one in Chapter 3) for solving the maximum subsequence sum problem, and reports the results of timing tests of implementations of each of them. This repository contains the source code used to conduct these tests, as well as an executable JAR file ([`maxsum.jar`](https://github.com/RodHowell-Algorithms/Maximum-Subsequence-Sum/raw/main/maxsum.jar)).
 
 ## Algorithm Implementations
 
@@ -8,7 +8,7 @@ All five algorithms are coded in the Java<sup>TM</sup> language. A driver genera
 
 ## Running the Program
 
-The easiest way to run the program is to download `maxsum.jar`. Provided you have the [Java Runtime Environment (JRE)](https://www.java.com/en/download/manual.jsp) installed, you can typically run this file simply by opening it. You can also run it from a command line as follows:
+The easiest way to run the program is to download [`maxsum.jar`](https://github.com/RodHowell-Algorithms/Maximum-Subsequence-Sum/raw/main/maxsum.jar). Provided you have the [Java Runtime Environment (JRE)](https://www.java.com/en/download/manual.jsp) installed, you can typically run this file simply by opening it. You can also run it from a command line as follows:
 <pre>
 java -jar maxsum.jar
 </pre>
@@ -44,7 +44,7 @@ Note also that it is normal for `MaxSumTD` to generate a **java.lang.StackOverfl
 
 ## Compiling the Code
 
-If you wish to modify the code, you will need to download a copy, either by cloning it with `git` or by downloading and decompressing a ZIP archive (see the green "Code" button). To compile the code, assuming you have the [Java Development Kit (JDK)](https://www.java.com/en/download/manual.jsp) installed, enter the following from a command line within the root folder of the project (i.e., the one containing a single subfolder, `edu`):
+If you wish to modify the code, you will need to download a copy, either by cloning it with `git` or by downloading and decompressing a [ZIP archive](https://github.com/RodHowell-Algorithms/Maximum-Subsequence-Sum/archive/refs/heads/main.zip). To compile the code, assuming you have the [Java Development Kit (JDK)](https://www.java.com/en/download/manual.jsp) installed, enter the following from a command line within the root folder of the project (i.e., the one containing a single subfolder, `edu`):
 <pre>
 javac edu/ksu/cis/maxsum/*.java
 </pre>
